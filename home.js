@@ -21,7 +21,7 @@ const Home = (function() {
 
             <hr class=" col-md-4 ">
             <p>
-            I worked as a 3D programmer and web developer at a software development company and used various technologies and programming laguages to create a web application and an in house video game. <br> In 2019 I developed and published my own
+            I worked as a 3D programmer and web developer at a software development company and used various technologies and programming languages to create a web application and an in house video game. <br> In 2019 I developed and published my own
             game. On top of that I do Freelance web development.
         </p>
         <p>
