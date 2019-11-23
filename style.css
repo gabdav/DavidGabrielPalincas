@@ -16,6 +16,11 @@
     .navLinks {
         margin-right: 1rem;
     }
+    .myDisplay-4 {
+        font-size: 3.5rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
 }
 
 @media screen and (max-width: 1250px) {
@@ -32,6 +37,11 @@
     }
     .navLinks {
         margin-right: 1rem;
+    }
+    .myDisplay-4 {
+        font-size: 3.5rem;
+        font-weight: 300;
+        line-height: 1.2;
     }
 }
 
@@ -50,6 +60,9 @@
     }
     .home {
         margin-left: 0rem;
+    }
+    .myDisplay-4 {
+        font-size: 1.5rem;
     }
 }
 

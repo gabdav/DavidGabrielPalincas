@@ -7,7 +7,7 @@ const Skills = (function() {
             <div class="container-fluid">
             <div class="row">
                 <div class="jumbotron col-md-9" id="div1">
-                    <h1 class="display-4">Main skills</h1>
+                    <h1 class="myDisplay-4">Main skills</h1>
                     <br><br>
                     <div class="animated slideInLeft faster">
                         <p><i class="fab fa-js-square" style="color: rgb(228, 174, 13);font-size: 2em"></i> JavaScript </p>
@@ -52,7 +52,7 @@ const Skills = (function() {
                     </div>
                 </div>
                 <div class="jumbotron col-md-3" style="text-align: center;" id="div2">
-                    <h1 class="display-4">Other skills</h1>
+                    <h1 class="myDisplay-4">Other skills</h1>
                     <br><br>
                     <span class="badge badge-dark animated zoomInDown dmicon">AJAX</span> &emsp;<br><br>
                     <span class="badge badge-dark animated zoomInRight dmicon">Php</span> &emsp;<br><br>
@@ -71,7 +71,7 @@ const Skills = (function() {
             </div>
         </div>
         <div class="jumbotron animated slideInUp slow">
-            <h3 class="display-4">Competencies</h4>
+            <h3 class="myDisplay-4">Competencies</h4>
                 <table class="table mt-5">
                     <tbody>
                         <tr class="table-default">
