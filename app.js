@@ -80,10 +80,15 @@ function changePage(pageName, pageObj) {
                 jQuery('[data-toggle="tooltip"]').tooltip();
                 jQuery('[data-toggle="popover"]').popover();
             });
+            scrollTop();
         }
     }
 
 
+}
+
+function scrollTop() {
+    window.scrollTo(0, 0);
 }
 
 function initHome() {

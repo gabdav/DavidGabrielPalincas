@@ -9,17 +9,17 @@ const Home = (function() {
 
 
 
-                <div class="col-md-1 mr-auto">
-                    <img class="img-fluid rounded-circle ml-auto animated zoomIn slow" src="assets/Me.jpg" alt="">
+                <div class="col-md-1 col-xs-3 col-sm-3">
+                    <img class="rounded-circle ml-auto animated zoomIn slow" style="max-width: 100%; height: auto;"src="assets/Me.jpg" alt="">
                 </div>
-                <div class="col-md-11 mt-10">
+                <div class="col-md-11 col-xs-9 col-sm-9 mt-10">
                     <h1 class="display-4">Hello</h1>
                     <p class="lead">I'm a web developer and a game developer with a bachelor's degree in computer science and a whack coding experience</p>
 
                 </div>
             </div>
 
-            <hr class=" col-md-4 ">
+            <hr>
             <p>
                 I worked as a 3D programmer and web developer at a software development company and used various technologies and programming languages to create a web application and an in house video game. <br> In 2019 I developed and published my own
                 game. On top of that I do Freelance web development.
