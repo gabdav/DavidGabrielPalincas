@@ -1,12 +1,12 @@
-const body = document.getElementById('mail')
 const page = document.getElementById('page');
 const home = document.getElementById('home');
 const skills = document.getElementById('skills');
 const experience = document.getElementById('experience');
 const education = document.getElementById('education');
 const projects = document.getElementById('projects');
-
+const body = document.getElementById('mail');
 body.addEventListener('click', copyItem);
+
 skills.addEventListener('click', changePage('skills', Skills));
 home.addEventListener('click', changePage('home', Home));
 experience.addEventListener('click', changePage('experience', Experience));
@@ -71,6 +71,8 @@ function changePage(pageName, pageObj) {
                 }
             })
             page.innerHTML = pageObj.giveHtml()
+            const body = document.getElementById('mail');
+            body.addEventListener('click', copyItem);
             jQuery(document).ready(function() {
                 jQuery('[data-toggle="tooltip"]').tooltip();
                 jQuery('[data-toggle="popover"]').popover();
