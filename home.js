@@ -21,15 +21,15 @@ const Home = (function() {
 
             <hr class=" col-md-4 ">
             <p>
-            I worked as a 3D programmer and web developer at a software development company and used various technologies and programming languages to create a web application and an in house video game. <br> In 2019 I developed and published my own
-            game. On top of that I do Freelance web development.
-        </p>
-        <p>
-            I've enjoyed everything I've done so far, be it the challenges of front-end, backend and 3D development that I tackled at my former workplace, or the complexity of developing my own game, or the intricacy of making a website for a client.
-        </p>
-        <p>
-            I'm always willing to learn new technologies and expand my knowledge of what I know.
-        </p>
+                I worked as a 3D programmer and web developer at a software development company and used various technologies and programming languages to create a web application and an in house video game. <br> In 2019 I developed and published my own
+                game. On top of that I do Freelance web development.
+            </p>
+            <p>
+                I've enjoyed everything I've done so far, be it the challenges of front-end, backend and 3D development that I tackled at my former workplace, or the complexity of developing my own game, or the intricacy of making a website for a client.
+            </p>
+            <p>
+                I'm always willing to learn new technologies and expand my knowledge of what I know.
+            </p>
 
         </div>
         <div id="alert"></div>
@@ -40,13 +40,9 @@ const Home = (function() {
                         <td class="align-middle" style="font-size: 30px;">
                             Contact:
                         </td>
-                        <td class="align-middle">
-                            <i class="far fa-envelope " style="font-size: 3em"> </i>
+                        <td class="align-middle mail">
+                            <span class="far fa-envelope clickable" id="mail" style="font-size: 3em" data-toggle="tooltip" data-placement="top" title="" data-original-title="Copy to clipboard gabipaldavid@gmail.com"> </span>
                         </td>
-                        <td class="align-middle mail" id="mail" style="font-size: 20px;" data-toggle="tooltip" data-placement="top" title="" data-original-title="Copy to clipboard">&emsp; gabipaldavid@gmail.com
-
-                        </td>
-
                     </tr>
                     <tr>
                         <td class="align-middle" style="font-size: 30px;">

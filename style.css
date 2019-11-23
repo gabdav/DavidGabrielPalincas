@@ -1,10 +1,56 @@
-h1 {
-    font-family: "Futura", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-    font-size: 40px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 700;
-    line-height: 23px;
+@media screen and (min-width: 1251px) {
+    h1 {
+        font-family: "Futura", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+        font-size: 40px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 700;
+        line-height: 23px;
+    }
+    .home {
+        margin-left: 1rem;
+    }
+    .navIdIcons {
+        font-size: 1em;
+    }
+    .navLinks {
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    h1 {
+        font-family: "Futura", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+        font-size: 25px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 700;
+        line-height: 23px;
+    }
+    .home {
+        margin-left: 1rem;
+    }
+    .navLinks {
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .home {
+        margin-left: 0rem;
+    }
+    .navLinks {
+        margin-right: 0rem;
+    }
+}
+
+@media screen and (max-width: 629px) {
+    h1 {
+        font-size: 20px;
+    }
+    .home {
+        margin-left: 0rem;
+    }
 }
 
 h3 {
@@ -197,4 +243,8 @@ img.hover-shadow {
 
 .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.clickable {
+    cursor: pointer;
 }

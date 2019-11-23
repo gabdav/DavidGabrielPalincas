@@ -14,11 +14,12 @@ projects.addEventListener('click', changePage('projects', Projects));
 //init the home
 initHome();
 
+
 function copyItem(e) {
+    console.log(e.target);
 
-
-    if (e.target.className === 'align-middle mail') {
-        let text = e.target.textContent;
+    if (e.target.className === 'far fa-envelope clickable') {
+        let text = 'gabipaldavid@gmail.com';
         navigator.clipboard.writeText(text);
         showAlert('Copied to clipboard', 'alert alert-dismissible alert-primary');
     }
@@ -61,7 +62,7 @@ function clearAlert() {
 
 function changePage(pageName, pageObj) {
     return function(e) {
-        if (e.target.parentElement.className === `nav-item mr-3 ${pageName}` || e.target.parentElement.className === `nav-item mr-3 ml-3 ${pageName}`) {
+        if (e.target.parentElement.className === `nav-item navLinks ${pageName}`) {
             const allStuff = document.querySelectorAll('li')
             allStuff.forEach((item) => {
 

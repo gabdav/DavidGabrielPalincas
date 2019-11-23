@@ -105,34 +105,30 @@ const Experience = (function() {
         </div>
         <div id="alert"></div>
         <!-- Contact -->
-        <div class="jumbotron animated slideInUp slow ">
-            <table style="height: 100px; ">
-                <tbody>
-                    <tr class="tablerow ">
-                        <td class="align-middle " style="font-size: 30px; ">
-                            Contact:
-                        </td>
-                        <td class="align-middle ">
-                            <i class="far fa-envelope " style="font-size: 3em "> </i>
-                        </td>
-                        <td class="align-middle mail" id="mail" style="font-size: 20px; " data-toggle="tooltip" data-placement="top" title="" data-original-title="Copy to clipboard">&emsp; gabipaldavid@gmail.com
+        <div class="jumbotron animated slideInUp slow">
+        <table style="height: 100px;">
+            <tbody>
+                <tr class="tablerow">
+                    <td class="align-middle" style="font-size: 30px;">
+                        Contact:
+                    </td>
+                    <td class="align-middle mail">
+                        <span class="far fa-envelope clickable" id="mail" style="font-size: 3em" data-toggle="tooltip" data-placement="top" title="" data-original-title="Copy to clipboard gabipaldavid@gmail.com"> </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="align-middle" style="font-size: 30px;">
 
-                        </td>
-
-                    </tr>
-                    <tr>
-                        <td class="align-middle " style="font-size: 30px; ">
-
-                        </td>
-                        <td class="align-middle ">
-                            <a href="https://www.linkedin.com/in/gabriel-palincas-4887b2129/ "> <i class="fab fa-linkedin " style="font-size: 3em; "> </i></a>
-                        </td>
+                    </td>
+                    <td class="align-middle">
+                        <a href="https://www.linkedin.com/in/gabriel-palincas-4887b2129/"> <i class="fab fa-linkedin " style="font-size: 3em;"> </i></a>
+                    </td>
 
 
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+                </tr>
+            </tbody>
+        </table>
+    </div>
         <!-- ---- -->`
         }
     }
