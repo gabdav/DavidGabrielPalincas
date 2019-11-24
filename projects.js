@@ -39,7 +39,7 @@ const Projects = (function() {
                             <div class="card-body">
                                 <h4 class="card-title">Web developer</h4>
                                 <p class="card-text text-light">
-                                    <a href="http://aromeproprii.ro/" style="font-size: 17px; color: rgb(255, 166, 0); "> Aromeproprii</a>
+                                    <a href="http://aromeproprii.ro/" target="_blank" style="font-size: 17px; color: rgb(255, 166, 0); "> Aromeproprii</a>
                                     <br><br> A website for agricultural producers made in Wordpress. <br> I implemented the map and the filters and improved the code all around the website</p>
                             </div>
                         </div>
@@ -57,7 +57,7 @@ const Projects = (function() {
                             <div class="card-body">
                                 <h4 class="card-title">Game developer</h4>
                                 <p class="card-text text-light">A game I have developed and published. The game is available to download for free here: <br>
-                                    <a href="https://thebudgeteers.itch.io/cyberblocks" style="font-size: 17px; color:rgb(255, 0, 149); "> Cyber<spans style="font-size: 17px; color:rgb(0, 204, 255); " >Blocks</span></a>
+                                    <a href="https://thebudgeteers.itch.io/cyberblocks" target="_blank" style="font-size: 17px; color:rgb(255, 0, 149); "> Cyber<spans style="font-size: 17px; color:rgb(0, 204, 255); " >Blocks</span></a>
                                 </p>
                             </div>
                         </div>
@@ -77,7 +77,7 @@ const Projects = (function() {
                             <div class="card-body">
                                 <h4 class="card-title">Design Elements in Video Games</h4>
                                 <p class="card-text text-light">This is the thesis used for my bachelor's degree. A game with randomly generated levels and enemies that follow you. <br> Numerous algorithms have been implemented to make this game. Read more about it here: <br>
-                                    <a href="https://drive.google.com/file/d/1ePUa55bDNU5LnHIimXxbS4ALxzHAqN0Z/view?usp=sharing" style="font-size: 17px; color: rgb(78, 155, 255); "> Thesis</a>
+                                    <a href="https://drive.google.com/file/d/1ePUa55bDNU5LnHIimXxbS4ALxzHAqN0Z/view?usp=sharing" target="_blank" style="font-size: 17px; color: rgb(78, 155, 255); "> Thesis</a>
                                 </p>
                             </div>
                         </div>
@@ -113,7 +113,7 @@ const Projects = (function() {
 
                     </td>
                     <td class="align-middle">
-                        <a href="https://www.linkedin.com/in/gabriel-palincas-4887b2129/"> <i class="fab fa-linkedin " style="font-size: 3em;"> </i></a>
+                        <a href="https://www.linkedin.com/in/gabriel-palincas-4887b2129/" target="_blank"> <i class="fab fa-linkedin " style="font-size: 3em;"> </i></a>
                     </td>
 
 

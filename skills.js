@@ -118,7 +118,7 @@ const Skills = (function() {
 
                     </td>
                     <td class="align-middle">
-                        <a href="https://www.linkedin.com/in/gabriel-palincas-4887b2129/"> <i class="fab fa-linkedin " style="font-size: 3em;"> </i></a>
+                        <a href="https://www.linkedin.com/in/gabriel-palincas-4887b2129/" target="_blank"> <i class="fab fa-linkedin " style="font-size: 3em;"> </i></a>
                     </td>
 
 
