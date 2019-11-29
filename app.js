@@ -132,3 +132,30 @@ function showSlides(n, name) {
     slides[slideIndex - 1].style.display = "block";
 }
 //--------
+var images = new Array()
+function preload() {
+    for (i = 0; i < preload.arguments.length; i++) {
+        images[i] = new Image()
+        images[i].src = preload.arguments[i]
+    }
+}
+
+    preload(`/assets/Arome/arome-1.jpg`);
+    preload(`/assets/Arome/arome-2.jpg`);
+    preload(`/assets/Arome/arome-3.jpg`);
+    preload(`/assets/Cyber/cyber-1.jpg`);
+    preload(`/assets/Cyber/cyber-2.jpg`);
+    preload(`/assets/Cyber/cyber-3.jpg`);
+    preload(`/assets/Cyber/cyber-4.jpg`);
+    preload(`/assets/Cyber/cyber-5.jpg`);
+    preload(`/assets/Insignety/insignety-1.jpg`);
+    preload(`/assets/Insignety/insignety-2.jpg`);
+    preload(`/assets/Insignety/insignety-3.jpg`);
+    preload(`/assets/Insignety/insignety-4.jpg`);
+    preload(`/assets/Insignety/insignety-5.jpg`);
+    preload(`/assets/Insignety/insignety-6.jpg`);
+    preload(`/assets/Insignety/insignety-7.jpg`);
+    preload(`/assets/Insignety/insignety-8.jpg`);
+    preload(`/assets/Thesis/thesis-1.gif`);
+    preload(`/assets/Thesis/thesis-2.gif`);
+    preload(`/assets/Thesis/thesis-3.gif`);
